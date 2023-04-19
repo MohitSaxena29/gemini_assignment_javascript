@@ -26,6 +26,7 @@ for(let x=0;x<tablelength;)
     th.style.textAlign='left';
     th.style.backgroundColor='goldenrod';
     th.style.color='white';
+    th.style.border='1px solid #ddd';
     th.appendChild(document.createTextNode(theadelements[x]));
     trow.appendChild(th);
     thead.appendChild(trow);
@@ -57,6 +58,7 @@ for (var i= 0; i< tabledata.length; i++) {
         td.style.paddingBottom='12px';
         td.style.paddingLeft='12px';
         td.style.paddingRight='12px';
+        td.style.border='1px solid #ddd';
         td.appendChild(document.createTextNode(element[key]));
         trow.appendChild(td);
     }
